@@ -1,0 +1,1210 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="adminsifredegisti" xml:space="preserve">
+    <value>Şifre başarıyla değiştirildi, program yeniden başlatılıyor.</value>
+  </data>
+  <data name="adresbos" xml:space="preserve">
+    <value>Adres boş bırakılamaz.</value>
+  </data>
+  <data name="alanlarbos" xml:space="preserve">
+    <value>Alanlar boş geçilemez!</value>
+  </data>
+  <data name="almancaToolStripMenuItem" xml:space="preserve">
+    <value>Almanca</value>
+  </data>
+  <data name="anneadi2karakterdenaz" xml:space="preserve">
+    <value>Anne adı en az 2 karakter olmalıdır.</value>
+  </data>
+  <data name="anneadibos" xml:space="preserve">
+    <value>Anne adı boş bırakılamaz.</value>
+  </data>
+  <data name="aynibolum" xml:space="preserve">
+    <value>{0} adında bir bölüm mevcut.</value>
+  </data>
+  <data name="ayniogrencitc" xml:space="preserve">
+    <value>{0} T.C. Numarası mevcut.</value>
+  </data>
+  <data name="ayniokulno" xml:space="preserve">
+    <value>{0} Okul Numarası mevcut.</value>
+  </data>
+  <data name="babaadi2karakterdenaz" xml:space="preserve">
+    <value>Baba adı en az 2 karakter olmalıdır.</value>
+  </data>
+  <data name="babaadibos" xml:space="preserve">
+    <value>Baba adı boş bırakılamaz.</value>
+  </data>
+  <data name="bilgi" xml:space="preserve">
+    <value>Bilgi</value>
+  </data>
+  <data name="bilgilerhatali" xml:space="preserve">
+    <value>Hatalı T.C. numarası, mail adresi veya doğum tarihi!</value>
+  </data>
+  <data name="bolum5karakterdenaz" xml:space="preserve">
+    <value>Bölüm adı en az 5 karakterden oluşmalıdır.</value>
+  </data>
+  <data name="bolumadimevcutolmayanguncelleme" xml:space="preserve">
+    <value>{0} adında bir bölüm bulunamadı.</value>
+  </data>
+  <data name="bolumbos" xml:space="preserve">
+    <value>Bölüm adı boş bırakılamaz.</value>
+  </data>
+  <data name="bolumguncellendi" xml:space="preserve">
+    <value>{0} adlı bölüm başarılı bir şekilde güncellendi.</value>
+  </data>
+  <data name="bolumkaydedildi" xml:space="preserve">
+    <value>{0} adlı bölüm başarılı bir şekilde kaydedildi.</value>
+  </data>
+  <data name="bolumsil" xml:space="preserve">
+    <value>{0} adlı bölümü silmek istiyor musunuz?</value>
+  </data>
+  <data name="bolumsilindi" xml:space="preserve">
+    <value>{0} adlı bölüm başarılı bir şekilde silindi.</value>
+  </data>
+  <data name="bolumsilmebos" xml:space="preserve">
+    <value>Lütfen silmek istediğiniz bir bölüm ismi seçiniz.</value>
+  </data>
+  <data name="bolumverilerikaydedildi" xml:space="preserve">
+    <value>Bölüm listesindeki veriler kaydedildi.</value>
+  </data>
+  <data name="borcodemehatasi" xml:space="preserve">
+    <value>Ödeme işlemi sırasında bir hata meydana geldi.</value>
+  </data>
+  <data name="borcodendi" xml:space="preserve">
+    <value>Borç başarılı bir şekilde ödendi.</value>
+  </data>
+  <data name="BtnAdd" xml:space="preserve">
+    <value>Kaydet</value>
+  </data>
+  <data name="BtnCalculate" xml:space="preserve">
+    <value>Hesapla</value>
+  </data>
+  <data name="BtnCancel" xml:space="preserve">
+    <value>İptal Et</value>
+  </data>
+  <data name="BtnChange" xml:space="preserve">
+    <value>Değiştir</value>
+  </data>
+  <data name="BtnCheck" xml:space="preserve">
+    <value>Kontrol Et</value>
+  </data>
+  <data name="BtnChoose" xml:space="preserve">
+    <value>SEÇİNİZ</value>
+  </data>
+  <data name="BtnDelete" xml:space="preserve">
+    <value>Sil</value>
+  </data>
+  <data name="BtnEdit" xml:space="preserve">
+    <value>Düzenle</value>
+  </data>
+  <data name="BtnExcel" xml:space="preserve">
+    <value>Verileri Excel'e Aktar</value>
+  </data>
+  <data name="BtnNotificationList" xml:space="preserve">
+    <value>Duyuru Listesi</value>
+  </data>
+  <data name="BtnPayment" xml:space="preserve">
+    <value>Ödeme Al</value>
+  </data>
+  <data name="bölümAraToolStripMenuItem" xml:space="preserve">
+    <value>Bölüm Ara</value>
+  </data>
+  <data name="bölümDüzenleToolStripMenuItem" xml:space="preserve">
+    <value>Bölüm Düzenle</value>
+  </data>
+  <data name="bölümEkleToolStripMenuItem" xml:space="preserve">
+    <value>Bölüm Ekle</value>
+  </data>
+  <data name="bölümlerToolStripMenuItem" xml:space="preserve">
+    <value>Bölümler</value>
+  </data>
+  <data name="bölümListesiToolStripMenuItem" xml:space="preserve">
+    <value>Bölüm Listesi</value>
+  </data>
+  <data name="bölümSilToolStripMenuItem" xml:space="preserve">
+    <value>Bölüm Sil</value>
+  </data>
+  <data name="ChkConfirmPassword" xml:space="preserve">
+    <value>Göster/Gizle</value>
+  </data>
+  <data name="ChkCurrentPassword" xml:space="preserve">
+    <value>Göster/Gizle</value>
+  </data>
+  <data name="ChkNewPassword" xml:space="preserve">
+    <value>Göster/Gizle</value>
+  </data>
+  <data name="ChkPassword" xml:space="preserve">
+    <value>Göster/Gizle</value>
+  </data>
+  <data name="ChkShowHidePassword" xml:space="preserve">
+    <value>Parolayı Göster/Gizle</value>
+  </data>
+  <data name="dilDeğiştirToolStripMenuItem" xml:space="preserve">
+    <value>Dil Değiştir</value>
+  </data>
+  <data name="duyurubasligibos" xml:space="preserve">
+    <value>Duyuru başlığı boş bırakılamaz.</value>
+  </data>
+  <data name="duyurubos" xml:space="preserve">
+    <value>Lütfen silmek istediğiniz bir duyuru seçiniz.</value>
+  </data>
+  <data name="duyurueklendi" xml:space="preserve">
+    <value>{0} duyurusu başarılı bir şekilde eklendi.</value>
+  </data>
+  <data name="duyuruguncellendi" xml:space="preserve">
+    <value>{0} adlı duyuru başarılı bir şekilde güncellendi.</value>
+  </data>
+  <data name="duyuruicerigibos" xml:space="preserve">
+    <value>Duyuru içeriği boş bırakılamaz.</value>
+  </data>
+  <data name="duyurusil" xml:space="preserve">
+    <value>{0} adlı duyuruyu silmek istiyor musunuz?</value>
+  </data>
+  <data name="duyurusilindi" xml:space="preserve">
+    <value>{0} adlı duyuru başarılı bir şekilde silindi.</value>
+  </data>
+  <data name="duyuruverilerkaydedildi" xml:space="preserve">
+    <value>Duyuru listesindeki veriler kaydedildi.</value>
+  </data>
+  <data name="erişimKolaylığıToolStripMenuItem" xml:space="preserve">
+    <value>Erişim Kolaylığı</value>
+  </data>
+  <data name="errorprovidertc" xml:space="preserve">
+    <value>TC Kimlik Numarası 11 Karakter Olmalıdır!</value>
+  </data>
+  <data name="eskisifrehatali" xml:space="preserve">
+    <value>Eski şifreniz hatalıdır!</value>
+  </data>
+  <data name="eskiyenisifrelerayni" xml:space="preserve">
+    <value>Eski şifre ile yeni şifre aynı olmamalıdır!</value>
+  </data>
+  <data name="exceldosyasi" xml:space="preserve">
+    <value>Excel Dosyaları|*.xlsx</value>
+  </data>
+  <data name="exceldosyasinikaydet" xml:space="preserve">
+    <value>Excel Dosyasını Kaydet</value>
+  </data>
+  <data name="fransızcaToolStripMenuItem" xml:space="preserve">
+    <value>Fransızca</value>
+  </data>
+  <data name="gazetelerToolStripMenuItem" xml:space="preserve">
+    <value>Gazeteler</value>
+  </data>
+  <data name="gecersizmailadresi" xml:space="preserve">
+    <value>Geçerli bir e-posta adresi değil!</value>
+  </data>
+  <data name="gelirRaporlarıToolStripMenuItem" xml:space="preserve">
+    <value>Gelir Raporları</value>
+  </data>
+  <data name="gelirİstatistikleriToolStripMenuItem" xml:space="preserve">
+    <value>Gelir İstatistikleri</value>
+  </data>
+  <data name="giderDüzenleToolStripMenuItem" xml:space="preserve">
+    <value>Gider Düzenle</value>
+  </data>
+  <data name="giderEkleToolStripMenuItem" xml:space="preserve">
+    <value>Gider Ekle</value>
+  </data>
+  <data name="giderlerduzenlendi" xml:space="preserve">
+    <value>Giderler düzenlendi.</value>
+  </data>
+  <data name="giderlerkaydedildi" xml:space="preserve">
+    <value>Giderler kaydedildi.</value>
+  </data>
+  <data name="giderlerToolStripMenuItem" xml:space="preserve">
+    <value>Giderler</value>
+  </data>
+  <data name="giderListesiToolStripMenuItem" xml:space="preserve">
+    <value>Gider Listesi</value>
+  </data>
+  <data name="girisbasarili" xml:space="preserve">
+    <value>Giriş başarılı, öğrenci yurt otomasyonuna yönlendiriliyorsunuz.</value>
+  </data>
+  <data name="gizleToolStripMenuItem" xml:space="preserve">
+    <value>Gizle</value>
+  </data>
+  <data name="gorevbasligibos" xml:space="preserve">
+    <value>Görev başlığı boş bırakılamaz.</value>
+  </data>
+  <data name="gorevbaslikbos" xml:space="preserve">
+    <value>Lütfen silmek istediğiniz bir görev seçiniz.</value>
+  </data>
+  <data name="gorevguncellendi" xml:space="preserve">
+    <value>{0} adlı görev başarılı bir şekilde güncellendi.</value>
+  </data>
+  <data name="gorevicerigibos" xml:space="preserve">
+    <value>Görev içeriği boş bırakılamaz.</value>
+  </data>
+  <data name="gorevkaydedildi" xml:space="preserve">
+    <value>{0} adlı görev başarılı bir şekilde kaydedildi.</value>
+  </data>
+  <data name="gorevsil" xml:space="preserve">
+    <value>{0} adlı görevi silmek istiyor musunuz?</value>
+  </data>
+  <data name="gorevsilindi" xml:space="preserve">
+    <value>{0} adlı görev başarılı bir şekilde silindi.</value>
+  </data>
+  <data name="groupBox1" xml:space="preserve">
+    <value>Öğrenci Bilgileri</value>
+  </data>
+  <data name="groupBox2" xml:space="preserve">
+    <value>Adres Bilgileri</value>
+  </data>
+  <data name="groupBox3" xml:space="preserve">
+    <value>İletişim Bilgileri</value>
+  </data>
+  <data name="groupBox4" xml:space="preserve">
+    <value>Akademisyen Bilgileri</value>
+  </data>
+  <data name="groupBox5" xml:space="preserve">
+    <value>Not Bilgileri</value>
+  </data>
+  <data name="gösterToolStripMenuItem" xml:space="preserve">
+    <value>Göster</value>
+  </data>
+  <data name="hakkimizda" xml:space="preserve">
+    <value>Proje Adı: Öğrenci Yurt Otomasyonu
+Proje Sahibi: Sercan KURBAN
+Kullanılan Teknolojiler: C#, SQL, ADO.NET
+************PROJE TANIMI************
+
+Kullanıcı Adı: sercan
+Şifre: 1
+
+Projemizde sadece tek bir kullanıcı girişi mevcuttur. Kullanıcı girişinden önce Türkçe, İngilizce, Almanca, İspanyolca, Fransızca, İtalyanca, Rusça ve Japonca olmak üzere 8 farklı dil seçeneği karşımıza çıkmaktadır. Bu dillerden birini seçtikten sonra kullanıcı adı, şifreyi ve güvenlik kodlarını eksiksiz giriyoruz. Hatalı giriş veya alanları boş geçersek uyarı ekranı verecektir. Projemize giriş yaptıktan sonra karşımıza 8 farklı alan çıkmaktadır. Yönetici panelde şu anki öğrencinin adı soyadı ve kaldığı odayı göstermektedir. İlk sırada Öğrenciler paneli yer almaktadır. Bu panelde öğrenci kaydetme, silme, güncelleme, arama ve listeleme işlemleri yapılmaktadır. Öğrenci kayıt işlemi sırasında öğrencinin seçeceği odalar mevcuttur. 100 ile başlayan odalar 1 kişilik, 200 ile başlayan odalar 2 kişilik olmak üzere öğrenci herhangi bir odayı seçebilecektir. 100 ile başlayan (örneğin: 101) numaralı oda seçildiği zaman bir sonraki öğrenci o odayı seçemeyecektir. Aynı şekilde öğrenci silindikten sonra o oda tekrar aktif olacaktır.
+
+Personeller panelinde ise öğrencilerde olduğu gibi ekleme, silme, güncelleme işlemleri mevcuttur.
+
+Bölümler panelinde de diğer panellerde olduğu gibi ekleme, silme, güncelleme işlemleri mevcuttur.
+
+Ödemeler kısmında ise eğer öğrenci kaydı yapılırsa öğrencinin başlangıçta 3000 ₺ olarak borç gözükmektedir. Yönetici burada öğrencinin borcunu ödeme işlemini yapabilir.
+
+Giderler kısmında ise elektrik, su, doğalgaz gibi ödemeler ekleyebilme, güncelleme, listeleme seçeneği mevcuttur.
+
+İstatistikler panelinde ise öğrencinin ödemiş olduğu borca göre kasanın toplamını görüntüleyebilir veya seçtiği aylara göre fiyatı görüntüleyebilir.
+
+Yönetici Ayarları panelinde ise şifre değişikliği, dil değişikliği, not ekleme işlemi, rapor alma ve çıkış yapma işlemi yapabilir.
+
+Erişim Kolaylığı panelinde ise buradan direkt Hesap Makinesi, Paint programlarını açabilir, gazete okuyabilir, radyo ve müzik dinleyebilir.</value>
+  </data>
+  <data name="hakkımızdaToolStripMenuItem" xml:space="preserve">
+    <value>Hakkımızda</value>
+  </data>
+  <data name="hata" xml:space="preserve">
+    <value>Hata</value>
+  </data>
+  <data name="hataliguvenlikkodugirisi" xml:space="preserve">
+    <value>Hatalı güvenlik kodu girişi!</value>
+  </data>
+  <data name="hatalikullaniciadisifre" xml:space="preserve">
+    <value>Kullanıcı adı veya şifre hatalıdır!</value>
+  </data>
+  <data name="hatalitcnosifre" xml:space="preserve">
+    <value>Hatalı T.C. numarası, kullanıcı adı veya şifre!</value>
+  </data>
+  <data name="hatalitcokulno" xml:space="preserve">
+    <value>Hatalı T.C. numarası veya okul numarası!</value>
+  </data>
+  <data name="hesapMakinesiToolStripMenuItem" xml:space="preserve">
+    <value>Hesap Makinesi</value>
+  </data>
+  <data name="hosgeldiniz" xml:space="preserve">
+    <value>Hoş geldiniz</value>
+  </data>
+  <data name="ingilizceToolStripMenuItem" xml:space="preserve">
+    <value>İngilizce</value>
+  </data>
+  <data name="ispanyolcaToolStripMenuItem" xml:space="preserve">
+    <value>İspanyolca</value>
+  </data>
+  <data name="istatistiklerToolStripMenuItem" xml:space="preserve">
+    <value>İstatistikler</value>
+  </data>
+  <data name="italyancaToolStripMenuItem" xml:space="preserve">
+    <value>İtalyanca</value>
+  </data>
+  <data name="japoncaToolStripMenuItem" xml:space="preserve">
+    <value>Japonca</value>
+  </data>
+  <data name="kangrububos" xml:space="preserve">
+    <value>Lütfen bir kan grubu seçiniz.</value>
+  </data>
+  <data name="kayityerisecin" xml:space="preserve">
+    <value>Kayıt Yeri Seçin</value>
+  </data>
+  <data name="lbladdnote" xml:space="preserve">
+    <value>NOT EKLE</value>
+  </data>
+  <data name="lbladdress" xml:space="preserve">
+    <value>Adres:</value>
+  </data>
+  <data name="lbladdstudent" xml:space="preserve">
+    <value>Öğrenci Kayıt</value>
+  </data>
+  <data name="lbladdtodolist" xml:space="preserve">
+    <value>GÖREV OLUŞTUR</value>
+  </data>
+  <data name="lbladsoyad" xml:space="preserve">
+    <value>Ad Soyad:</value>
+  </data>
+  <data name="lblaysecin" xml:space="preserve">
+    <value>Ay Seçin:</value>
+  </data>
+  <data name="lblbirthdate" xml:space="preserve">
+    <value>Doğum Tarihi:</value>
+  </data>
+  <data name="lblbirthplace" xml:space="preserve">
+    <value>Doğum Yeri:</value>
+  </data>
+  <data name="lblbloodtype" xml:space="preserve">
+    <value>Kan Grubu:</value>
+  </data>
+  <data name="lblbolum" xml:space="preserve">
+    <value>Bölüm:</value>
+  </data>
+  <data name="lblbolumadi" xml:space="preserve">
+    <value>Bölüm Adı:</value>
+  </data>
+  <data name="lblbolumara" xml:space="preserve">
+    <value>Bölüm Ara</value>
+  </data>
+  <data name="lblbolumduzenle" xml:space="preserve">
+    <value>Bölüm Düzenle</value>
+  </data>
+  <data name="lblbolumduzenlemenu" xml:space="preserve">
+    <value>BÖLÜM DÜZENLE</value>
+  </data>
+  <data name="lblbolumekle" xml:space="preserve">
+    <value>Bölüm Ekle</value>
+  </data>
+  <data name="lblbolumeklemenu" xml:space="preserve">
+    <value>BÖLÜM EKLE</value>
+  </data>
+  <data name="lblbolumler" xml:space="preserve">
+    <value>Bölümler</value>
+  </data>
+  <data name="lblbolumlerpanel" xml:space="preserve">
+    <value>BÖLÜMLER</value>
+  </data>
+  <data name="lblbolumlistesi" xml:space="preserve">
+    <value>Bölüm Listesi</value>
+  </data>
+  <data name="lblbolumsayisi" xml:space="preserve">
+    <value>Bölüm Sayısı:</value>
+  </data>
+  <data name="lblbolumsil" xml:space="preserve">
+    <value>Bölüm Sil</value>
+  </data>
+  <data name="lblbolumsilmenu" xml:space="preserve">
+    <value>BÖLÜM SİL</value>
+  </data>
+  <data name="lblbolumsirala" xml:space="preserve">
+    <value>Bölüm Sırala (A-Z):</value>
+  </data>
+  <data name="lblbolumsiralaters" xml:space="preserve">
+    <value>Bölüm Sırala (Z-A):</value>
+  </data>
+  <data name="lblcity" xml:space="preserve">
+    <value>İl:</value>
+  </data>
+  <data name="lblconfirmpassword" xml:space="preserve">
+    <value>Parola Tekrar:</value>
+  </data>
+  <data name="lblcurrentpassword" xml:space="preserve">
+    <value>Mevcut Parola</value>
+  </data>
+  <data name="lbldeletestudent" xml:space="preserve">
+    <value>Öğrenci Sil</value>
+  </data>
+  <data name="lbldeletetodolist" xml:space="preserve">
+    <value>GÖREV SİL</value>
+  </data>
+  <data name="lbldepartment" xml:space="preserve">
+    <value>Bölüm:</value>
+  </data>
+  <data name="lbldiger" xml:space="preserve">
+    <value>Diğer:</value>
+  </data>
+  <data name="lbldildegistir" xml:space="preserve">
+    <value>Dil Değiştir</value>
+  </data>
+  <data name="lbldistrict" xml:space="preserve">
+    <value>İlçe:</value>
+  </data>
+  <data name="lbldogalgaz" xml:space="preserve">
+    <value>Doğalgaz:</value>
+  </data>
+  <data name="lblduyuruara" xml:space="preserve">
+    <value>Duyuru Ara</value>
+  </data>
+  <data name="lblduyuruaraformu" xml:space="preserve">
+    <value>DUYURU ARA</value>
+  </data>
+  <data name="lblduyuruarama" xml:space="preserve">
+    <value>Duyuru Ara:</value>
+  </data>
+  <data name="lblduyurubasligi" xml:space="preserve">
+    <value>Duyuru Başlığı:</value>
+  </data>
+  <data name="lblduyuruduzenle" xml:space="preserve">
+    <value>Duyuru Düzenle</value>
+  </data>
+  <data name="lblduyuruduzenleformu" xml:space="preserve">
+    <value>DUYURU DÜZENLE</value>
+  </data>
+  <data name="lblduyuruicerik" xml:space="preserve">
+    <value>İçerik:</value>
+  </data>
+  <data name="lblduyurular" xml:space="preserve">
+    <value>Duyurular</value>
+  </data>
+  <data name="lblduyurularogrenci" xml:space="preserve">
+    <value>Duyurular</value>
+  </data>
+  <data name="lblduyurularpanel" xml:space="preserve">
+    <value>DUYURULAR</value>
+  </data>
+  <data name="lblduyurulistesi" xml:space="preserve">
+    <value>Duyuru Listesi</value>
+  </data>
+  <data name="lblduyurulistesiformu" xml:space="preserve">
+    <value>DUYURU LİSTESİ</value>
+  </data>
+  <data name="lblduyuruolustur" xml:space="preserve">
+    <value>Duyuru Oluştur</value>
+  </data>
+  <data name="lblduyuruolusturformu" xml:space="preserve">
+    <value>DUYURU OLUŞTUR</value>
+  </data>
+  <data name="lblduyurusayisi" xml:space="preserve">
+    <value>Duyuru Sayısı:</value>
+  </data>
+  <data name="lblduyurusil" xml:space="preserve">
+    <value>Duyuru Sil</value>
+  </data>
+  <data name="lblduyurusilformu" xml:space="preserve">
+    <value>DUYURU SİL</value>
+  </data>
+  <data name="lblduyurusirala" xml:space="preserve">
+    <value>Duyuru Sırala (A-Z):</value>
+  </data>
+  <data name="lblduyurusiralaters" xml:space="preserve">
+    <value>Duyuru Sırala (Z-A):</value>
+  </data>
+  <data name="lbleditexpenses" xml:space="preserve">
+    <value>GİDERLER DÜZENLE</value>
+  </data>
+  <data name="lbleditstudent" xml:space="preserve">
+    <value>Öğrenci Düzenle</value>
+  </data>
+  <data name="lbledittodolist" xml:space="preserve">
+    <value>GÖREV DÜZENLE</value>
+  </data>
+  <data name="lblegitimotomasyonsistemi" xml:space="preserve">
+    <value>Eğitim Otomasyon Sistemi</value>
+  </data>
+  <data name="lblegitimotomasyonugirispanelleri" xml:space="preserve">
+    <value>Eğitim Otomasyonu Giriş Panelleri</value>
+  </data>
+  <data name="lblelektrik" xml:space="preserve">
+    <value>Elektrik:</value>
+  </data>
+  <data name="lblemployeeadd" xml:space="preserve">
+    <value>PERSONEL KAYIT</value>
+  </data>
+  <data name="lblemployeedelete" xml:space="preserve">
+    <value>PERSONEL SİL</value>
+  </data>
+  <data name="lblemployeeedit" xml:space="preserve">
+    <value>PERSONEL DÜZENLE</value>
+  </data>
+  <data name="lblemployeelist" xml:space="preserve">
+    <value>PERSONEL LİSTESİ</value>
+  </data>
+  <data name="lblemployeesearch" xml:space="preserve">
+    <value>PERSONEL ARA</value>
+  </data>
+  <data name="lblexpenses" xml:space="preserve">
+    <value>GİDERLER</value>
+  </data>
+  <data name="lblexpenseslist" xml:space="preserve">
+    <value>GİDERLER LİSTESİ</value>
+  </data>
+  <data name="lblfathername" xml:space="preserve">
+    <value>Baba Adı:</value>
+  </data>
+  <data name="lblfinalsinavi" xml:space="preserve">
+    <value>Final Sınavı:</value>
+  </data>
+  <data name="lblgazeteler" xml:space="preserve">
+    <value>Gazeteler</value>
+  </data>
+  <data name="lblgeliristatistikleri" xml:space="preserve">
+    <value>GELİR İSTATİSTİKLERİ</value>
+  </data>
+  <data name="lblgender" xml:space="preserve">
+    <value>Cinsiyet:</value>
+  </data>
+  <data name="lblgida" xml:space="preserve">
+    <value>Gıda:</value>
+  </data>
+  <data name="lblgorevara" xml:space="preserve">
+    <value>Görev Ara</value>
+  </data>
+  <data name="lblgorevbasligi" xml:space="preserve">
+    <value>Görev Başlığı:</value>
+  </data>
+  <data name="lblgorevbaslikara" xml:space="preserve">
+    <value>Görev Ara:</value>
+  </data>
+  <data name="lblgorevduzenle" xml:space="preserve">
+    <value>Görev Düzenle</value>
+  </data>
+  <data name="lblgorevolustur" xml:space="preserve">
+    <value>Görev Oluştur</value>
+  </data>
+  <data name="lblgorevsayisi" xml:space="preserve">
+    <value>Görev Sayısı:</value>
+  </data>
+  <data name="lblgorevsil" xml:space="preserve">
+    <value>Görev Sil</value>
+  </data>
+  <data name="lblgorevtanimi" xml:space="preserve">
+    <value>Görev Tanımı:</value>
+  </data>
+  <data name="lblguvenlikkodu" xml:space="preserve">
+    <value>Güvenlik Kodu:</value>
+  </data>
+  <data name="lblharfnotu" xml:space="preserve">
+    <value>Harf Notu:</value>
+  </data>
+  <data name="lblhesapmakinesi" xml:space="preserve">
+    <value>Hesap Makinesi</value>
+  </data>
+  <data name="lblhomephonenumber" xml:space="preserve">
+    <value>Ev Telefonu:</value>
+  </data>
+  <data name="lblinternet" xml:space="preserve">
+    <value>İnternet:</value>
+  </data>
+  <data name="lblkalanborc" xml:space="preserve">
+    <value>Kalan Borç:</value>
+  </data>
+  <data name="lblkasadakipara" xml:space="preserve">
+    <value>Kasadaki Para:</value>
+  </data>
+  <data name="lblkullaniciadi" xml:space="preserve">
+    <value>Kullanıcı Adı:</value>
+  </data>
+  <data name="lbllistdepartmentmenu" xml:space="preserve">
+    <value>BÖLÜM LİSTESİ</value>
+  </data>
+  <data name="lblliststudent" xml:space="preserve">
+    <value>Öğrenci Listesi</value>
+  </data>
+  <data name="lbllogineos" xml:space="preserve">
+    <value>Eğitim Otomasyon Sistemi</value>
+  </data>
+  <data name="lblmail" xml:space="preserve">
+    <value>Mail Adresi:</value>
+  </data>
+  <data name="lblmothername" xml:space="preserve">
+    <value>Anne Adı:</value>
+  </data>
+  <data name="lblmuzikdinle" xml:space="preserve">
+    <value>Müzik Dinle</value>
+  </data>
+  <data name="lblmuzikler" xml:space="preserve">
+    <value>Müzikler</value>
+  </data>
+  <data name="lblneighborhood" xml:space="preserve">
+    <value>Semt:</value>
+  </data>
+  <data name="lblnewpassword" xml:space="preserve">
+    <value>Yeni Parola</value>
+  </data>
+  <data name="lblnewpasswordform" xml:space="preserve">
+    <value>YENİ PAROLA</value>
+  </data>
+  <data name="lblnotbilgileri" xml:space="preserve">
+    <value>Not Bilgileri</value>
+  </data>
+  <data name="lblnotislemleri" xml:space="preserve">
+    <value>NOT İŞLEMLERİ</value>
+  </data>
+  <data name="lblnotlar" xml:space="preserve">
+    <value>Notlar</value>
+  </data>
+  <data name="lblnotlarim" xml:space="preserve">
+    <value>NOTLARIM</value>
+  </data>
+  <data name="lblodenenay" xml:space="preserve">
+    <value>Ödenen Ay:</value>
+  </data>
+  <data name="lblodenenmiktar" xml:space="preserve">
+    <value>Ödenen Miktar:</value>
+  </data>
+  <data name="lblogrenci" xml:space="preserve">
+    <value>Öğrenci</value>
+  </data>
+  <data name="lblogrenciarapanel" xml:space="preserve">
+    <value>ÖĞRENCİ ARA</value>
+  </data>
+  <data name="lblogrencibilgileri" xml:space="preserve">
+    <value>ÖĞRENCİ BİLGİLERİ</value>
+  </data>
+  <data name="lblogrenciduzenlemeformu" xml:space="preserve">
+    <value>ÖĞRENCİ DÜZENLEME FORMU</value>
+  </data>
+  <data name="lblogrencigirispaneli" xml:space="preserve">
+    <value>ÖĞRENCİ GİRİŞ PANELİ</value>
+  </data>
+  <data name="lblogrenciid" xml:space="preserve">
+    <value>Öğrenci ID:</value>
+  </data>
+  <data name="lblogrenciler" xml:space="preserve">
+    <value>Öğrenciler</value>
+  </data>
+  <data name="lblogrencilistesiformu" xml:space="preserve">
+    <value>ÖĞRENCİ LİSTESİ</value>
+  </data>
+  <data name="lblogrencino" xml:space="preserve">
+    <value>Öğrenci No:</value>
+  </data>
+  <data name="lblogrencinoara" xml:space="preserve">
+    <value>Öğrenci No Ara:</value>
+  </data>
+  <data name="lblogrencipaneli" xml:space="preserve">
+    <value>ÖĞRENCİ PANELİ</value>
+  </data>
+  <data name="lblogrencisayisi" xml:space="preserve">
+    <value>Öğrenci Sayısı:</value>
+  </data>
+  <data name="lblogrencisilmeformu" xml:space="preserve">
+    <value>ÖĞRENCİ SİLME FORMU</value>
+  </data>
+  <data name="lblogrencisirala" xml:space="preserve">
+    <value>Öğrenci Sırala (A-Z):</value>
+  </data>
+  <data name="lblogrencisiralaters" xml:space="preserve">
+    <value>Öğrenci Sırala (Z-A):</value>
+  </data>
+  <data name="lblogrenciyurtotomasyonu" xml:space="preserve">
+    <value>Öğrenci Yurt Otomasyonu</value>
+  </data>
+  <data name="lblortalama" xml:space="preserve">
+    <value>Ortalama:</value>
+  </data>
+  <data name="lblparentphonenumber" xml:space="preserve">
+    <value>Veli Telefonu:</value>
+  </data>
+  <data name="lblparola" xml:space="preserve">
+    <value>Parola:</value>
+  </data>
+  <data name="lblparolamiunuttum" xml:space="preserve">
+    <value>Parolamı Unuttum</value>
+  </data>
+  <data name="lblpassword" xml:space="preserve">
+    <value>Parola:</value>
+  </data>
+  <data name="lblpasswordchangeform" xml:space="preserve">
+    <value>PAROLA DEĞİŞİKLİĞİ FORMU</value>
+  </data>
+  <data name="lblpersonel" xml:space="preserve">
+    <value>Personel:</value>
+  </data>
+  <data name="lblpersoneladi" xml:space="preserve">
+    <value>Personel Adı:</value>
+  </data>
+  <data name="lblpersonelgorevi" xml:space="preserve">
+    <value>Personel Görevi:</value>
+  </data>
+  <data name="lblpersonelsayisi" xml:space="preserve">
+    <value>Personel Sayısı:</value>
+  </data>
+  <data name="lblpersonelsoyadi" xml:space="preserve">
+    <value>Personel Soyadı:</value>
+  </data>
+  <data name="lblphonenumber" xml:space="preserve">
+    <value>Cep Telefonu:</value>
+  </data>
+  <data name="lblphoto" xml:space="preserve">
+    <value>Fotoğraf:</value>
+  </data>
+  <data name="lblpostalcode" xml:space="preserve">
+    <value>Posta Kodu:</value>
+  </data>
+  <data name="lblradyo" xml:space="preserve">
+    <value>Radyo</value>
+  </data>
+  <data name="lblraporlar" xml:space="preserve">
+    <value>Raporlar</value>
+  </data>
+  <data name="lblraporlarpaneli" xml:space="preserve">
+    <value>RAPORLAR</value>
+  </data>
+  <data name="lblroomnumber" xml:space="preserve">
+    <value>Oda No:</value>
+  </data>
+  <data name="lblsearchdepartmentmenu" xml:space="preserve">
+    <value>BÖLÜM ARA</value>
+  </data>
+  <data name="lblsearchstudent" xml:space="preserve">
+    <value>Öğrenci Ara</value>
+  </data>
+  <data name="lblsearchtodolist" xml:space="preserve">
+    <value>GÖREV ARA</value>
+  </data>
+  <data name="lblsecilenayinkazanci" xml:space="preserve">
+    <value>Seçilen Ayın Kazancı:</value>
+  </data>
+  <data name="lblsifredegisikliği" xml:space="preserve">
+    <value>ŞİFRE DEĞİŞİKLİĞİ</value>
+  </data>
+  <data name="lblsifredegistir" xml:space="preserve">
+    <value>Şifre Değiştir</value>
+  </data>
+  <data name="lblson3akademisyenkayit" xml:space="preserve">
+    <value>Son 3 Akademisyen Kayıt:</value>
+  </data>
+  <data name="lblson3bolumkayit" xml:space="preserve">
+    <value>Son 3 Bölüm Kayıt:</value>
+  </data>
+  <data name="lblson3derskayit" xml:space="preserve">
+    <value>Son 3 Ders Kayıt:</value>
+  </data>
+  <data name="lblson3duyuru" xml:space="preserve">
+    <value>Son 3 Duyuru:</value>
+  </data>
+  <data name="lblson3ogrencikayit" xml:space="preserve">
+    <value>Son 3 Öğrenci Kayıt:</value>
+  </data>
+  <data name="lblstudent" xml:space="preserve">
+    <value>Öğrenci:</value>
+  </data>
+  <data name="lblstudenthostelautomation" xml:space="preserve">
+    <value>Öğrenci Yurt Otomasyonu</value>
+  </data>
+  <data name="lblstudentname" xml:space="preserve">
+    <value>Öğrenci Adı:</value>
+  </data>
+  <data name="lblstudentnumber" xml:space="preserve">
+    <value>Okul Numarası:</value>
+  </data>
+  <data name="lblstudentpanel" xml:space="preserve">
+    <value>ÖĞRENCİLER</value>
+  </data>
+  <data name="lblstudentpayment" xml:space="preserve">
+    <value>ÖDEMELER</value>
+  </data>
+  <data name="lblstudentregistrationform" xml:space="preserve">
+    <value>ÖĞRENCİ KAYIT FORMU</value>
+  </data>
+  <data name="lblstudentsurname" xml:space="preserve">
+    <value>Öğrenci Soyadı:</value>
+  </data>
+  <data name="lblstudenttrno" xml:space="preserve">
+    <value>T.C. No:</value>
+  </data>
+  <data name="lblsu" xml:space="preserve">
+    <value>Su:</value>
+  </data>
+  <data name="lbltcno" xml:space="preserve">
+    <value>T.C. Kimlik No:</value>
+  </data>
+  <data name="lbltcnoara" xml:space="preserve">
+    <value>T.C. No Ara:</value>
+  </data>
+  <data name="lbltodolist" xml:space="preserve">
+    <value>YAPILACAKLAR</value>
+  </data>
+  <data name="lbltodolists" xml:space="preserve">
+    <value>YAPILACAKLAR LİSTESİ</value>
+  </data>
+  <data name="lbltoplamakademisyensayisi" xml:space="preserve">
+    <value>Toplam Akademisyen Sayısı:</value>
+  </data>
+  <data name="lbltoplambolumsayisi" xml:space="preserve">
+    <value>Toplam Bölüm Sayısı:</value>
+  </data>
+  <data name="lbltoplamderssayisi" xml:space="preserve">
+    <value>Toplam Ders Sayısı:</value>
+  </data>
+  <data name="lbltoplamduyurusayisi" xml:space="preserve">
+    <value>Toplam Duyuru Sayısı:</value>
+  </data>
+  <data name="lbltoplamogrencisayisi" xml:space="preserve">
+    <value>Toplam Öğrenci Sayısı:</value>
+  </data>
+  <data name="lbluygulamalar" xml:space="preserve">
+    <value>Uygulamalar</value>
+  </data>
+  <data name="lbluygulamalarformu" xml:space="preserve">
+    <value>UYGULAMALAR</value>
+  </data>
+  <data name="lblvizesinavi" xml:space="preserve">
+    <value>Vize Sınavı:</value>
+  </data>
+  <data name="lblyapilacaklar" xml:space="preserve">
+    <value>Yapılacaklar</value>
+  </data>
+  <data name="lblyapilacaklarlistesi" xml:space="preserve">
+    <value>Yapılacaklar Listesi</value>
+  </data>
+  <data name="lblyonetici" xml:space="preserve">
+    <value>Yönetici</value>
+  </data>
+  <data name="lblyoneticibasligi" xml:space="preserve">
+    <value>Yönetici:</value>
+  </data>
+  <data name="lblyoneticigirispaneli" xml:space="preserve">
+    <value>YÖNETİCİ GİRİŞ PANELİ</value>
+  </data>
+  <data name="lblyoneticipaneli" xml:space="preserve">
+    <value>YÖNETİCİ PANELİ</value>
+  </data>
+  <data name="lblyukleniyor" xml:space="preserve">
+    <value>YÜKLENİYOR</value>
+  </data>
+  <data name="LnkLblClear" xml:space="preserve">
+    <value>TEMİZLE</value>
+  </data>
+  <data name="LnkLblLogin" xml:space="preserve">
+    <value>GİRİŞ YAP</value>
+  </data>
+  <data name="mailbos" xml:space="preserve">
+    <value>Mail adresi boş bırakılamaz.</value>
+  </data>
+  <data name="metin" xml:space="preserve">
+    <value>Programdan çıkmak istiyor musunuz?</value>
+  </data>
+  <data name="müzikDinleToolStripMenuItem" xml:space="preserve">
+    <value>Müzik Dinle</value>
+  </data>
+  <data name="noteklemebos" xml:space="preserve">
+    <value>Lütfen bir not ekleyin.</value>
+  </data>
+  <data name="notEkleToolStripMenuItem" xml:space="preserve">
+    <value>Not Ekle</value>
+  </data>
+  <data name="notkaydedildi" xml:space="preserve">
+    <value>Not kaydedildi.</value>
+  </data>
+  <data name="odabos" xml:space="preserve">
+    <value>Lütfen bir oda seçiniz.</value>
+  </data>
+  <data name="ogrenciadi2karakterdenaz" xml:space="preserve">
+    <value>Öğrenci adı en az 2 karakter olmalıdır.</value>
+  </data>
+  <data name="ogrenciadibos" xml:space="preserve">
+    <value>Öğrenci adı boş bırakılamaz.</value>
+  </data>
+  <data name="ogrencibilgileriguncellendi" xml:space="preserve">
+    <value>Öğrenci bilgileri güncellendi.</value>
+  </data>
+  <data name="ogrencibos" xml:space="preserve">
+    <value>Lütfen bir öğrenci seçiniz.</value>
+  </data>
+  <data name="ogrencidogumyeribos" xml:space="preserve">
+    <value>Doğum Yeri boş bırakılamaz.</value>
+  </data>
+  <data name="ogrenciguncellendi" xml:space="preserve">
+    <value>{0} T.C. numaralı öğrenci başarılı bir şekilde güncellendi.</value>
+  </data>
+  <data name="ogrencikaydedildi" xml:space="preserve">
+    <value>{0} T.C. numaralı öğrenci başarılı bir şekilde kaydedildi.</value>
+  </data>
+  <data name="ogrencisil" xml:space="preserve">
+    <value>{0} T.C. numaralı öğrenciyi silmek istiyor musunuz?</value>
+  </data>
+  <data name="ogrencisilindi" xml:space="preserve">
+    <value>{0} T.C. numaralı öğrenci başarılı bir şekilde silindi.</value>
+  </data>
+  <data name="ogrencisilmebos" xml:space="preserve">
+    <value>Lütfen silmek istediğiniz bir öğrenci seçiniz.</value>
+  </data>
+  <data name="ogrencisoyadi2karakterdenaz" xml:space="preserve">
+    <value>Öğrenci soyadı en az 2 karakter olmalıdır.</value>
+  </data>
+  <data name="ogrencisoyadibos" xml:space="preserve">
+    <value>Öğrenci soyadı boş bırakılamaz.</value>
+  </data>
+  <data name="ogrenciuniversiteyasi" xml:space="preserve">
+    <value>Öğrencinin üniversiteye kaydolması için yaşı 17 olmalıdır.</value>
+  </data>
+  <data name="ogrenciverilerikaydedildi" xml:space="preserve">
+    <value>Öğrenci listesindeki veriler kaydedildi.</value>
+  </data>
+  <data name="paintToolStripMenuItem" xml:space="preserve">
+    <value>Paint</value>
+  </data>
+  <data name="parolabos" xml:space="preserve">
+    <value>Lütfen bir parola belirleyin.</value>
+  </data>
+  <data name="parolalaraynidegil" xml:space="preserve">
+    <value>Parolalar uyuşmuyor!</value>
+  </data>
+  <data name="parolatekrarbos" xml:space="preserve">
+    <value>Parola Tekrar kısmı boş bırakılamaz.</value>
+  </data>
+  <data name="personeladi2karakterdenaz" xml:space="preserve">
+    <value>Personel adı en az 2 karakter olmalıdır.</value>
+  </data>
+  <data name="personeladibos" xml:space="preserve">
+    <value>Personel adı boş bırakılamaz.</value>
+  </data>
+  <data name="personelAraToolStripMenuItem" xml:space="preserve">
+    <value>Personel Ara</value>
+  </data>
+  <data name="personelDüzenleToolStripMenuItem" xml:space="preserve">
+    <value>Personel Düzenle</value>
+  </data>
+  <data name="personelgorevi4karakterdenaz" xml:space="preserve">
+    <value>Personel görevi en az 4 karakter olmalıdır.</value>
+  </data>
+  <data name="personelgorevibos" xml:space="preserve">
+    <value>Personel görevi boş bırakılamaz.</value>
+  </data>
+  <data name="personelguncellendi" xml:space="preserve">
+    <value>{0} T.C. numaralı personel başarılı bir şekilde güncellendi.</value>
+  </data>
+  <data name="personelkaydedildi" xml:space="preserve">
+    <value>{0} T.C. numaralı personel başarılı bir şekilde kaydedildi.</value>
+  </data>
+  <data name="personelKayıtToolStripMenuItem" xml:space="preserve">
+    <value>Personel Kayıt</value>
+  </data>
+  <data name="personellerToolStripMenuItem" xml:space="preserve">
+    <value>Personeller</value>
+  </data>
+  <data name="personelListesiToolStripMenuItem" xml:space="preserve">
+    <value>Personel Listesi</value>
+  </data>
+  <data name="personelsil" xml:space="preserve">
+    <value>{0} T.C. numaralı personeli silmek istiyor musunuz?</value>
+  </data>
+  <data name="personelsilindi" xml:space="preserve">
+    <value>{0} T.C. numaralı personel başarılı bir şekilde silindi.</value>
+  </data>
+  <data name="personelsilmebos" xml:space="preserve">
+    <value>Lütfen silmek istediğiniz bir personel seçiniz.</value>
+  </data>
+  <data name="personelSilToolStripMenuItem" xml:space="preserve">
+    <value>Personel Sil</value>
+  </data>
+  <data name="personelsoyadi2karakterdenaz" xml:space="preserve">
+    <value>Personel soyadı en az 2 karakter olmalıdır.</value>
+  </data>
+  <data name="personelsoyadibos" xml:space="preserve">
+    <value>Personel soyadı boş bırakılamaz.</value>
+  </data>
+  <data name="postakodubos" xml:space="preserve">
+    <value>Posta kodu boş bırakılamaz.</value>
+  </data>
+  <data name="radyolarToolStripMenuItem" xml:space="preserve">
+    <value>Radyolar</value>
+  </data>
+  <data name="raporAlToolStripMenuItem" xml:space="preserve">
+    <value>Rapor Al</value>
+  </data>
+  <data name="rdbenglish" xml:space="preserve">
+    <value>İNGİLİZCE</value>
+  </data>
+  <data name="rdbturkce" xml:space="preserve">
+    <value>TÜRKÇE</value>
+  </data>
+  <data name="resimbos" xml:space="preserve">
+    <value>Lütfen bir fotoğraf seçiniz.</value>
+  </data>
+  <data name="rusçaToolStripMenuItem" xml:space="preserve">
+    <value>Rusça</value>
+  </data>
+  <data name="sayisaldegerhatasi" xml:space="preserve">
+    <value>Lütfen sayısal değerler giriniz.</value>
+  </data>
+  <data name="semtbos" xml:space="preserve">
+    <value>Semt boş bırakılamaz.</value>
+  </data>
+  <data name="tcnobos" xml:space="preserve">
+    <value>T.C. Kimlik Numarası boş bırakılamaz.</value>
+  </data>
+  <data name="telefonnobos" xml:space="preserve">
+    <value>Cep Telefonu Numarası boş bırakılamaz.</value>
+  </data>
+  <data name="türkçeToolStripMenuItem" xml:space="preserve">
+    <value>Türkçe</value>
+  </data>
+  <data name="uyari" xml:space="preserve">
+    <value>Uyarı</value>
+  </data>
+  <data name="velitelefonnobos" xml:space="preserve">
+    <value>Veli telefon numarası boş bırakılamaz.</value>
+  </data>
+  <data name="verilerbos" xml:space="preserve">
+    <value>Lütfen bir veri seçiniz.</value>
+  </data>
+  <data name="yoneticicikis" xml:space="preserve">
+    <value>Yönetici panelinden çıkmak istiyor musunuz?</value>
+  </data>
+  <data name="yöneticiToolStripMenuItem" xml:space="preserve">
+    <value>Yönetici Ayarları</value>
+  </data>
+  <data name="çıkışAdminToolStripMenuItem" xml:space="preserve">
+    <value>Çıkış</value>
+  </data>
+  <data name="çıkışAkademisyenToolStripMenuItem" xml:space="preserve">
+    <value>Çıkış</value>
+  </data>
+  <data name="çıkışOgrenciToolStripMenuItem" xml:space="preserve">
+    <value>Çıkış</value>
+  </data>
+  <data name="çıkışYapToolStripMenuItem" xml:space="preserve">
+    <value>Çıkış Yap</value>
+  </data>
+  <data name="ödemeAlToolStripMenuItem" xml:space="preserve">
+    <value>Ödeme Al</value>
+  </data>
+  <data name="ödemelerToolStripMenuItem" xml:space="preserve">
+    <value>Ödemeler</value>
+  </data>
+  <data name="öğrenciAraToolStripMenuItem" xml:space="preserve">
+    <value>Öğrenci Ara</value>
+  </data>
+  <data name="öğrenciBilgileriToolStripMenuItem" xml:space="preserve">
+    <value>Öğrenci Bilgileri</value>
+  </data>
+  <data name="öğrenciDüzenleToolStripMenuItem" xml:space="preserve">
+    <value>Öğrenci Düzenle</value>
+  </data>
+  <data name="öğrenciKayıtToolStripMenuItem" xml:space="preserve">
+    <value>Öğrenci Kayıt</value>
+  </data>
+  <data name="öğrencilerToolStripMenuItem" xml:space="preserve">
+    <value>Öğrenciler</value>
+  </data>
+  <data name="öğrenciListesiToolStripMenuItem" xml:space="preserve">
+    <value>Öğrenci Listesi</value>
+  </data>
+  <data name="öğrenciSilToolStripMenuItem" xml:space="preserve">
+    <value>Öğrenci Sil</value>
+  </data>
+  <data name="şifreİşlemleriToolStripMenuItem" xml:space="preserve">
+    <value>Şifre Değiştir</value>
+  </data>
+</root>

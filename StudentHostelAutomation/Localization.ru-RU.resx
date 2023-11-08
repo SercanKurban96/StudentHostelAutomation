@@ -1,0 +1,781 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="adminsifredegisti" xml:space="preserve">
+    <value>Пароль успешно изменен, программа перезагружается.</value>
+  </data>
+  <data name="adresbos" xml:space="preserve">
+    <value>Адрес не может быть пустым.</value>
+  </data>
+  <data name="alanlarbos" xml:space="preserve">
+    <value>Поля не могут оставаться пустыми!</value>
+  </data>
+  <data name="almancaToolStripMenuItem" xml:space="preserve">
+    <value>Немецкий</value>
+  </data>
+  <data name="anneadi2karakterdenaz" xml:space="preserve">
+    <value>Имя матери должно состоять минимум из 2 символов.</value>
+  </data>
+  <data name="anneadibos" xml:space="preserve">
+    <value>Имя матери не может быть пустым.</value>
+  </data>
+  <data name="aynibolum" xml:space="preserve">
+    <value>Есть отдел под названием {0}.</value>
+  </data>
+  <data name="ayniogrencitc" xml:space="preserve">
+    <value>{0} Т.Р. номер доступен.</value>
+  </data>
+  <data name="babaadi2karakterdenaz" xml:space="preserve">
+    <value>Имя отца должно состоять минимум из 2 символов.</value>
+  </data>
+  <data name="babaadibos" xml:space="preserve">
+    <value>Имя отца не может быть пустым.</value>
+  </data>
+  <data name="bilgi" xml:space="preserve">
+    <value>информация</value>
+  </data>
+  <data name="bolum5karakterdenaz" xml:space="preserve">
+    <value>Название отдела должно содержать не менее 5 символов.</value>
+  </data>
+  <data name="bolumbos" xml:space="preserve">
+    <value>Название отдела нельзя оставить пустым.</value>
+  </data>
+  <data name="bolumguncellendi" xml:space="preserve">
+    <value>Отдел с именем {0} успешно обновлен.</value>
+  </data>
+  <data name="bolumkaydedildi" xml:space="preserve">
+    <value>Отдел с именем {0} успешно зарегистрирован.</value>
+  </data>
+  <data name="bolumsil" xml:space="preserve">
+    <value>Вы хотите удалить отдел с именем {0}?</value>
+  </data>
+  <data name="bolumsilindi" xml:space="preserve">
+    <value>Отдел с именем {0} успешно удален.</value>
+  </data>
+  <data name="bolumsilmebos" xml:space="preserve">
+    <value>Пожалуйста, выберите отдел, который вы хотите удалить.</value>
+  </data>
+  <data name="borcodemehatasi" xml:space="preserve">
+    <value>В процессе оплаты произошла ошибка.</value>
+  </data>
+  <data name="borcodendi" xml:space="preserve">
+    <value>Долг был успешно погашен.</value>
+  </data>
+  <data name="BtnAdd" xml:space="preserve">
+    <value>Сохранять</value>
+  </data>
+  <data name="BtnCancel" xml:space="preserve">
+    <value>Отмена</value>
+  </data>
+  <data name="BtnChange" xml:space="preserve">
+    <value>Изменять</value>
+  </data>
+  <data name="BtnDelete" xml:space="preserve">
+    <value>Удалить</value>
+  </data>
+  <data name="BtnEdit" xml:space="preserve">
+    <value>Редактировать</value>
+  </data>
+  <data name="BtnPayment" xml:space="preserve">
+    <value>Получить оплату</value>
+  </data>
+  <data name="bölümAraToolStripMenuItem" xml:space="preserve">
+    <value>Поисковый отдел</value>
+  </data>
+  <data name="bölümDüzenleToolStripMenuItem" xml:space="preserve">
+    <value>Редактировать отдел</value>
+  </data>
+  <data name="bölümEkleToolStripMenuItem" xml:space="preserve">
+    <value>Добавить отдел</value>
+  </data>
+  <data name="bölümlerToolStripMenuItem" xml:space="preserve">
+    <value>Отделы</value>
+  </data>
+  <data name="bölümListesiToolStripMenuItem" xml:space="preserve">
+    <value>Список отделов</value>
+  </data>
+  <data name="bölümSilToolStripMenuItem" xml:space="preserve">
+    <value>Удалить отдел</value>
+  </data>
+  <data name="ChkConfirmPassword" xml:space="preserve">
+    <value>Показать/спрятать</value>
+  </data>
+  <data name="ChkCurrentPassword" xml:space="preserve">
+    <value>Показать/спрятать</value>
+  </data>
+  <data name="ChkNewPassword" xml:space="preserve">
+    <value>Показать/спрятать</value>
+  </data>
+  <data name="ChkShowHidePassword" xml:space="preserve">
+    <value>Показать/скрыть пароль</value>
+  </data>
+  <data name="dilDeğiştirToolStripMenuItem" xml:space="preserve">
+    <value>Изменить язык</value>
+  </data>
+  <data name="erişimKolaylığıToolStripMenuItem" xml:space="preserve">
+    <value>Доступность</value>
+  </data>
+  <data name="errorprovidertc" xml:space="preserve">
+    <value>Т.Р. Идентификатор должен состоять из 11 символов.</value>
+  </data>
+  <data name="eskisifrehatali" xml:space="preserve">
+    <value>Ваш старый пароль неверен!</value>
+  </data>
+  <data name="eskiyenisifrelerayni" xml:space="preserve">
+    <value>Старый пароль и новый пароль не должны совпадать!</value>
+  </data>
+  <data name="fransızcaToolStripMenuItem" xml:space="preserve">
+    <value>Французский</value>
+  </data>
+  <data name="gazetelerToolStripMenuItem" xml:space="preserve">
+    <value>Газеты</value>
+  </data>
+  <data name="gecersizmailadresi" xml:space="preserve">
+    <value>Неверный адрес электронной почты!</value>
+  </data>
+  <data name="gelirRaporlarıToolStripMenuItem" xml:space="preserve">
+    <value>Отчеты о доходах</value>
+  </data>
+  <data name="gelirİstatistikleriToolStripMenuItem" xml:space="preserve">
+    <value>Статистика доходов</value>
+  </data>
+  <data name="giderDüzenleToolStripMenuItem" xml:space="preserve">
+    <value>Редактировать расходы</value>
+  </data>
+  <data name="giderEkleToolStripMenuItem" xml:space="preserve">
+    <value>Добавить расходы</value>
+  </data>
+  <data name="giderlerduzenlendi" xml:space="preserve">
+    <value>Расходы обновлены.</value>
+  </data>
+  <data name="giderlerkaydedildi" xml:space="preserve">
+    <value>Расходы были зафиксированы.</value>
+  </data>
+  <data name="giderlerToolStripMenuItem" xml:space="preserve">
+    <value>Затраты</value>
+  </data>
+  <data name="giderListesiToolStripMenuItem" xml:space="preserve">
+    <value>Список расходов</value>
+  </data>
+  <data name="girisbasarili" xml:space="preserve">
+    <value>Авторизация прошла успешно, вы перенаправлены на автоматику студенческого общежития.</value>
+  </data>
+  <data name="groupBox1" xml:space="preserve">
+    <value>Информация о студентах</value>
+  </data>
+  <data name="groupBox2" xml:space="preserve">
+    <value>Адресная информация</value>
+  </data>
+  <data name="groupBox3" xml:space="preserve">
+    <value>Информация для родителей</value>
+  </data>
+  <data name="hakkimizda" xml:space="preserve">
+    <value>Название проекта: Автоматизация студенческого общежития
+Владелец проекта: Серджан КУРБАН
+Используемые технологии: C#, SQL, ADO.NET.
+************ОПИСАНИЕ ПРОЕКТА************
+
+Имя пользователя: Серкан
+Пароль: 1
+
+В нашем проекте есть только один логин пользователя. Перед входом пользователя отображаются 8 различных языков: турецкий, английский, немецкий, испанский, французский, итальянский, русский и японский. После выбора одного из этих языков вводим логин, пароль и коды безопасности. Если мы введем неправильно или оставим поля пустыми, появится экран с предупреждением. После входа в наш проект мы видим 8 разных полей. В админ-панели отображается имя, фамилия и комната текущего студента. Первая строка — это панель «Студенты». На этой панели выполняются операции регистрации, удаления, обновления, поиска и перечисления студентов. Студентам доступны комнаты, которые они могут выбрать в процессе регистрации. Студент может выбрать любую комнату от 100 на 1 человека и комнаты от 200 на 2 человека. Если выбран номер комнаты, начинающийся со 100 (например: 101), следующий учащийся не сможет выбрать эту комнату. Аналогично, после удаления учащегося эта комната снова станет активной.
+
+В панели персонала доступны операции добавления, удаления и обновления, как у студентов.
+
+Операции добавления, удаления и обновления доступны в панели «Разделы», как и в других панелях.
+
+В разделе платежей, если студент зарегистрирован, первоначальный долг студента отображается в размере 3000 ₺. Здесь администратор может оформить оплату студенческого долга.
+
+В разделе расходов можно добавлять, обновлять и перечислять такие платежи, как электричество, вода и природный газ.
+
+На панели статистики студент может просмотреть общую сумму денежного депозита в зависимости от выплаченного долга или цену в зависимости от выбранных им месяцев.
+
+На панели настроек администратора пользователи могут менять пароль, менять язык, добавлять заметки, получать отчеты и выходить из системы.
+
+На панели специальных возможностей вы можете напрямую открывать программы «Калькулятор» и «Paint», читать газеты, слушать радио и музыку.</value>
+  </data>
+  <data name="hakkımızdaToolStripMenuItem" xml:space="preserve">
+    <value>о нас</value>
+  </data>
+  <data name="hata" xml:space="preserve">
+    <value>Ошибка</value>
+  </data>
+  <data name="hataliguvenlikkodugirisi" xml:space="preserve">
+    <value>Неправильный ввод кода безопасности!</value>
+  </data>
+  <data name="hatalikullaniciadisifre" xml:space="preserve">
+    <value>Имя пользователя или пароль неверны!</value>
+  </data>
+  <data name="hesapMakinesiToolStripMenuItem" xml:space="preserve">
+    <value>Калькулятор</value>
+  </data>
+  <data name="hosgeldiniz" xml:space="preserve">
+    <value>Добро пожаловать</value>
+  </data>
+  <data name="ingilizceToolStripMenuItem" xml:space="preserve">
+    <value>Английский</value>
+  </data>
+  <data name="ispanyolcaToolStripMenuItem" xml:space="preserve">
+    <value>испанский</value>
+  </data>
+  <data name="istatistiklerToolStripMenuItem" xml:space="preserve">
+    <value>Статистика</value>
+  </data>
+  <data name="italyancaToolStripMenuItem" xml:space="preserve">
+    <value>итальянский</value>
+  </data>
+  <data name="japoncaToolStripMenuItem" xml:space="preserve">
+    <value>Японский</value>
+  </data>
+  <data name="kayityerisecin" xml:space="preserve">
+    <value>Выберите место сохранения</value>
+  </data>
+  <data name="lbladdnote" xml:space="preserve">
+    <value>ДОБАВИТЬ ЗАМЕТКУ</value>
+  </data>
+  <data name="lbladdress" xml:space="preserve">
+    <value>Адрес:</value>
+  </data>
+  <data name="lblaysecin" xml:space="preserve">
+    <value>Выберите месяц:</value>
+  </data>
+  <data name="lblbirthdate" xml:space="preserve">
+    <value>Дата рождения:</value>
+  </data>
+  <data name="lblbirthplace" xml:space="preserve">
+    <value>Место рождения:</value>
+  </data>
+  <data name="lblbloodtype" xml:space="preserve">
+    <value>Группа крови:</value>
+  </data>
+  <data name="lblbolum" xml:space="preserve">
+    <value>Отделение:</value>
+  </data>
+  <data name="lblbolumadi" xml:space="preserve">
+    <value>Название отдела:</value>
+  </data>
+  <data name="lblbolumara" xml:space="preserve">
+    <value>Поисковый отдел:</value>
+  </data>
+  <data name="lblbolumduzenle" xml:space="preserve">
+    <value>Редактировать отдел</value>
+  </data>
+  <data name="lblbolumduzenlemenu" xml:space="preserve">
+    <value>ОТДЕЛ РЕДАКТИРОВАНИЯ</value>
+  </data>
+  <data name="lblbolumekle" xml:space="preserve">
+    <value>Добавить отдел</value>
+  </data>
+  <data name="lblbolumeklemenu" xml:space="preserve">
+    <value>ДОБАВИТЬ ОТДЕЛ</value>
+  </data>
+  <data name="lblbolumler" xml:space="preserve">
+    <value>Отделы</value>
+  </data>
+  <data name="lblbolumlerpanel" xml:space="preserve">
+    <value>ОТДЕЛЕНИЯ</value>
+  </data>
+  <data name="lblbolumlistesi" xml:space="preserve">
+    <value>Список отделов</value>
+  </data>
+  <data name="lblbolumsayisi" xml:space="preserve">
+    <value>Количество отделений:</value>
+  </data>
+  <data name="lblbolumsil" xml:space="preserve">
+    <value>Удалить отдел</value>
+  </data>
+  <data name="lblbolumsilmenu" xml:space="preserve">
+    <value>УДАЛЕНИЕ ОТДЕЛА</value>
+  </data>
+  <data name="lblcity" xml:space="preserve">
+    <value>Город:</value>
+  </data>
+  <data name="lblconfirmpassword" xml:space="preserve">
+    <value>Подтвердите пароль:</value>
+  </data>
+  <data name="lblcurrentpassword" xml:space="preserve">
+    <value>Текущий пароль:</value>
+  </data>
+  <data name="lbldeletestudent" xml:space="preserve">
+    <value>Удалить студента</value>
+  </data>
+  <data name="lbldepartment" xml:space="preserve">
+    <value>Отделение:</value>
+  </data>
+  <data name="lbldiger" xml:space="preserve">
+    <value>Другой:</value>
+  </data>
+  <data name="lbldistrict" xml:space="preserve">
+    <value>Округ:</value>
+  </data>
+  <data name="lbldogalgaz" xml:space="preserve">
+    <value>Натуральный газ:</value>
+  </data>
+  <data name="lbleditexpenses" xml:space="preserve">
+    <value>РАСХОДЫ РЕДАКТИРОВАТЬ</value>
+  </data>
+  <data name="lbleditstudent" xml:space="preserve">
+    <value>Студент Править</value>
+  </data>
+  <data name="lblelektrik" xml:space="preserve">
+    <value>Электрический:</value>
+  </data>
+  <data name="lblemployeeadd" xml:space="preserve">
+    <value>РЕГИСТРАЦИЯ ПЕРСОНАЛА</value>
+  </data>
+  <data name="lblemployeedelete" xml:space="preserve">
+    <value>УДАЛЕНИЕ ПЕРСОНАЛА</value>
+  </data>
+  <data name="lblemployeeedit" xml:space="preserve">
+    <value>РЕДАКТИРОВАНИЕ ПЕРСОНАЛА</value>
+  </data>
+  <data name="lblemployeelist" xml:space="preserve">
+    <value>СПИСОК ПЕРСОНАЛА</value>
+  </data>
+  <data name="lblemployeesearch" xml:space="preserve">
+    <value>ПОИСК ПЕРСОНАЛА</value>
+  </data>
+  <data name="lblexpenses" xml:space="preserve">
+    <value>ЗАТРАТЫ</value>
+  </data>
+  <data name="lblexpenseslist" xml:space="preserve">
+    <value>СПИСОК РАСХОДОВ</value>
+  </data>
+  <data name="lblfathername" xml:space="preserve">
+    <value>Имя Отца:</value>
+  </data>
+  <data name="lblgeliristatistikleri" xml:space="preserve">
+    <value>СТАТИСТИКА ДОХОДОВ</value>
+  </data>
+  <data name="lblgida" xml:space="preserve">
+    <value>Еда:</value>
+  </data>
+  <data name="lblguvenlikkodu" xml:space="preserve">
+    <value>Код безопасности:</value>
+  </data>
+  <data name="lblinternet" xml:space="preserve">
+    <value>Интернет:</value>
+  </data>
+  <data name="lblkalanborc" xml:space="preserve">
+    <value>Оставшийся долг:</value>
+  </data>
+  <data name="lblkasadakipara" xml:space="preserve">
+    <value>Деньги в сейфе:</value>
+  </data>
+  <data name="lblkullaniciadi" xml:space="preserve">
+    <value>Имя пользователя:</value>
+  </data>
+  <data name="lbllistdepartmentmenu" xml:space="preserve">
+    <value>СПИСОК ОТДЕЛОВ</value>
+  </data>
+  <data name="lblliststudent" xml:space="preserve">
+    <value>СПИСОК СТУДЕНТОВ</value>
+  </data>
+  <data name="lblmail" xml:space="preserve">
+    <value>Электронная почта:</value>
+  </data>
+  <data name="lblmothername" xml:space="preserve">
+    <value>Имя матери:</value>
+  </data>
+  <data name="lblmuzikler" xml:space="preserve">
+    <value>Музыка</value>
+  </data>
+  <data name="lblneighborhood" xml:space="preserve">
+    <value>Район:</value>
+  </data>
+  <data name="lblnewpassword" xml:space="preserve">
+    <value>Новый пароль:</value>
+  </data>
+  <data name="lblodenenay" xml:space="preserve">
+    <value>Оплачено за месяц:</value>
+  </data>
+  <data name="lblodenenmiktar" xml:space="preserve">
+    <value>Выплаченная сумма:</value>
+  </data>
+  <data name="lblogrenciarapanel" xml:space="preserve">
+    <value>ПОИСК СТУДЕНТА</value>
+  </data>
+  <data name="lblogrencibilgileri" xml:space="preserve">
+    <value>ИНФОРМАЦИЯ ДЛЯ СТУДЕНТОВ</value>
+  </data>
+  <data name="lblogrenciduzenlemeformu" xml:space="preserve">
+    <value>СТУДЕНЧЕСКАЯ ФОРМА РЕГЛАМЕНТА</value>
+  </data>
+  <data name="lblogrencilistesiformu" xml:space="preserve">
+    <value>СПИСОК СТУДЕНТОВ</value>
+  </data>
+  <data name="lblogrencisayisi" xml:space="preserve">
+    <value>Количество студентов:</value>
+  </data>
+  <data name="lblogrencisilmeformu" xml:space="preserve">
+    <value>ФОРМА УДАЛЕНИЯ СТУДЕНТА</value>
+  </data>
+  <data name="lblparentphonenumber" xml:space="preserve">
+    <value>Родительский телефон:</value>
+  </data>
+  <data name="lblparola" xml:space="preserve">
+    <value>Пароль:</value>
+  </data>
+  <data name="lblpersonel" xml:space="preserve">
+    <value>Сотрудник:</value>
+  </data>
+  <data name="lblpersoneladi" xml:space="preserve">
+    <value>Имя сотрудника:</value>
+  </data>
+  <data name="lblpersonelgorevi" xml:space="preserve">
+    <value>Должность персонала:</value>
+  </data>
+  <data name="lblpersonelsayisi" xml:space="preserve">
+    <value>Личный номер:</value>
+  </data>
+  <data name="lblpersonelsoyadi" xml:space="preserve">
+    <value>Фамилия сотрудника:</value>
+  </data>
+  <data name="lblphonenumber" xml:space="preserve">
+    <value>Номер телефона:</value>
+  </data>
+  <data name="lblphoto" xml:space="preserve">
+    <value>Фотография:</value>
+  </data>
+  <data name="lblroomnumber" xml:space="preserve">
+    <value>Номер комнаты:</value>
+  </data>
+  <data name="lblsearchdepartmentmenu" xml:space="preserve">
+    <value>ОТДЕЛ ПОИСКА</value>
+  </data>
+  <data name="lblsecilenayinkazanci" xml:space="preserve">
+    <value>Доход за выбранный месяц:</value>
+  </data>
+  <data name="lblsifredegisikliği" xml:space="preserve">
+    <value>ИЗМЕНЕНИЕ ПАРОЛЯ</value>
+  </data>
+  <data name="lblstudenthostelautomation" xml:space="preserve">
+    <value>Автоматизация студенческого общежития</value>
+  </data>
+  <data name="lblstudentname" xml:space="preserve">
+    <value>Имя студента:</value>
+  </data>
+  <data name="lblstudentpayment" xml:space="preserve">
+    <value>ПЛАТЕЖИ</value>
+  </data>
+  <data name="lblstudentregistrationform" xml:space="preserve">
+    <value>РЕГИСТРАЦИЯ СТУДЕНТА</value>
+  </data>
+  <data name="lblstudentsurname" xml:space="preserve">
+    <value>Фамилия студента:</value>
+  </data>
+  <data name="lblstudenttrno" xml:space="preserve">
+    <value>Т.Р. Его номер:</value>
+  </data>
+  <data name="lblsu" xml:space="preserve">
+    <value>Вода:</value>
+  </data>
+  <data name="lbltcnoara" xml:space="preserve">
+    <value>Т.Р. Номер поиска:</value>
+  </data>
+  <data name="lblyukleniyor" xml:space="preserve">
+    <value>ЗАГРУЗКА</value>
+  </data>
+  <data name="LnkLblClear" xml:space="preserve">
+    <value>ЧИСТЫЙ</value>
+  </data>
+  <data name="LnkLblLogin" xml:space="preserve">
+    <value>АВТОРИЗОВАТЬСЯ</value>
+  </data>
+  <data name="mailbos" xml:space="preserve">
+    <value>Адрес электронной почты не может быть оставлен пустым.</value>
+  </data>
+  <data name="metin" xml:space="preserve">
+    <value>Вы хотите выйти из программы?</value>
+  </data>
+  <data name="müzikDinleToolStripMenuItem" xml:space="preserve">
+    <value>Слушать музыку</value>
+  </data>
+  <data name="noteklemebos" xml:space="preserve">
+    <value>Пожалуйста, добавьте примечание.</value>
+  </data>
+  <data name="notEkleToolStripMenuItem" xml:space="preserve">
+    <value>Добавить заметку</value>
+  </data>
+  <data name="notkaydedildi" xml:space="preserve">
+    <value>Заметка сохранена.</value>
+  </data>
+  <data name="ogrenciadi2karakterdenaz" xml:space="preserve">
+    <value>Имя студента должно состоять не менее чем из 2 символов.</value>
+  </data>
+  <data name="ogrenciadibos" xml:space="preserve">
+    <value>Имя студента не может быть оставлено пустым.</value>
+  </data>
+  <data name="ogrencibos" xml:space="preserve">
+    <value>Пожалуйста, выберите студента.</value>
+  </data>
+  <data name="ogrencidogumyeribos" xml:space="preserve">
+    <value>Место рождения не может быть пустым.</value>
+  </data>
+  <data name="ogrenciguncellendi" xml:space="preserve">
+    <value>{0} Т.Р. Номер учащегося успешно обновлен.</value>
+  </data>
+  <data name="ogrencikaydedildi" xml:space="preserve">
+    <value>{0} Т.Р. Студент с номером успешно зарегистрирован.</value>
+  </data>
+  <data name="ogrencisil" xml:space="preserve">
+    <value>{0} Т.Р. Вы хотите удалить номер студента?</value>
+  </data>
+  <data name="ogrencisilindi" xml:space="preserve">
+    <value>{0} Т.Р. Номер учащегося успешно удален.</value>
+  </data>
+  <data name="ogrencisilmebos" xml:space="preserve">
+    <value>Пожалуйста, выберите учащегося, которого хотите удалить.</value>
+  </data>
+  <data name="ogrencisoyadi2karakterdenaz" xml:space="preserve">
+    <value>Фамилия студента должна состоять минимум из 2 символов.</value>
+  </data>
+  <data name="ogrencisoyadibos" xml:space="preserve">
+    <value>Фамилию студента нельзя оставить пустым.</value>
+  </data>
+  <data name="ogrenciuniversiteyasi" xml:space="preserve">
+    <value>Для поступления в университет студенту должно быть 17 лет.</value>
+  </data>
+  <data name="paintToolStripMenuItem" xml:space="preserve">
+    <value>краска</value>
+  </data>
+  <data name="parolalaraynidegil" xml:space="preserve">
+    <value>Пароли не совпадают!</value>
+  </data>
+  <data name="personeladi2karakterdenaz" xml:space="preserve">
+    <value>Имя сотрудника должно содержать не менее 2 символов.</value>
+  </data>
+  <data name="personeladibos" xml:space="preserve">
+    <value>Имя сотрудника не может быть пустым.</value>
+  </data>
+  <data name="personelAraToolStripMenuItem" xml:space="preserve">
+    <value>Поиск сотрудников</value>
+  </data>
+  <data name="personelDüzenleToolStripMenuItem" xml:space="preserve">
+    <value>Персонал Править</value>
+  </data>
+  <data name="personelgorevi4karakterdenaz" xml:space="preserve">
+    <value>Должность сотрудника должна содержать не менее 4 символов.</value>
+  </data>
+  <data name="personelgorevibos" xml:space="preserve">
+    <value>Должности по кадрам не могут оставаться вакантными.</value>
+  </data>
+  <data name="personelguncellendi" xml:space="preserve">
+    <value>{0} Т.Р. Табельный номер успешно обновлен.</value>
+  </data>
+  <data name="personelkaydedildi" xml:space="preserve">
+    <value>{0} Т.Р. Нумерованный персонал успешно зарегистрирован.</value>
+  </data>
+  <data name="personelKayıtToolStripMenuItem" xml:space="preserve">
+    <value>Регистрация персонала</value>
+  </data>
+  <data name="personellerToolStripMenuItem" xml:space="preserve">
+    <value>Персонал</value>
+  </data>
+  <data name="personelListesiToolStripMenuItem" xml:space="preserve">
+    <value>Список сотрудников</value>
+  </data>
+  <data name="personelsil" xml:space="preserve">
+    <value>{0} Т.Р. Хотите удалить табельный номер?</value>
+  </data>
+  <data name="personelsilindi" xml:space="preserve">
+    <value>{0} Т.Р. Табельный номер успешно удален.</value>
+  </data>
+  <data name="personelsilmebos" xml:space="preserve">
+    <value>Пожалуйста, выберите сотрудника, которого хотите удалить.</value>
+  </data>
+  <data name="personelSilToolStripMenuItem" xml:space="preserve">
+    <value>Удалить персонал</value>
+  </data>
+  <data name="personelsoyadi2karakterdenaz" xml:space="preserve">
+    <value>Фамилия сотрудника должна состоять минимум из 2 символов.</value>
+  </data>
+  <data name="personelsoyadibos" xml:space="preserve">
+    <value>Фамилию сотрудника нельзя оставить пустым.</value>
+  </data>
+  <data name="radyolarToolStripMenuItem" xml:space="preserve">
+    <value>Радио</value>
+  </data>
+  <data name="raporAlToolStripMenuItem" xml:space="preserve">
+    <value>Получить отчет</value>
+  </data>
+  <data name="resimbos" xml:space="preserve">
+    <value>Пожалуйста, выберите фотографию.</value>
+  </data>
+  <data name="rusçaToolStripMenuItem" xml:space="preserve">
+    <value>Русский</value>
+  </data>
+  <data name="sayisaldegerhatasi" xml:space="preserve">
+    <value>Пожалуйста, введите числовые значения.</value>
+  </data>
+  <data name="semtbos" xml:space="preserve">
+    <value>Район нельзя оставить пустым.</value>
+  </data>
+  <data name="tcnobos" xml:space="preserve">
+    <value>Т.Р. Идентификационный номер нельзя оставить пустым.</value>
+  </data>
+  <data name="telefonnobos" xml:space="preserve">
+    <value>Номер телефона не может быть пустым.</value>
+  </data>
+  <data name="türkçeToolStripMenuItem" xml:space="preserve">
+    <value>турецкий</value>
+  </data>
+  <data name="uyari" xml:space="preserve">
+    <value>Предупреждение</value>
+  </data>
+  <data name="velitelefonnobos" xml:space="preserve">
+    <value>Номер телефона родителя нельзя оставить пустым.</value>
+  </data>
+  <data name="yöneticiToolStripMenuItem" xml:space="preserve">
+    <value>Настройки администратора</value>
+  </data>
+  <data name="çıkışYapToolStripMenuItem" xml:space="preserve">
+    <value>Выйти</value>
+  </data>
+  <data name="ödemeAlToolStripMenuItem" xml:space="preserve">
+    <value>Получить оплату</value>
+  </data>
+  <data name="ödemelerToolStripMenuItem" xml:space="preserve">
+    <value>Платежи</value>
+  </data>
+  <data name="öğrenciAraToolStripMenuItem" xml:space="preserve">
+    <value>Поиск студентов</value>
+  </data>
+  <data name="öğrenciBilgileriToolStripMenuItem" xml:space="preserve">
+    <value>Информация о студентах</value>
+  </data>
+  <data name="öğrenciDüzenleToolStripMenuItem" xml:space="preserve">
+    <value>Студент Править</value>
+  </data>
+  <data name="öğrenciKayıtToolStripMenuItem" xml:space="preserve">
+    <value>Регистрация студентов</value>
+  </data>
+  <data name="öğrencilerToolStripMenuItem" xml:space="preserve">
+    <value>Студенты</value>
+  </data>
+  <data name="öğrenciListesiToolStripMenuItem" xml:space="preserve">
+    <value>Список студентов</value>
+  </data>
+  <data name="öğrenciSilToolStripMenuItem" xml:space="preserve">
+    <value>Удалить студента</value>
+  </data>
+  <data name="şifreİşlemleriToolStripMenuItem" xml:space="preserve">
+    <value>Изменить пароль</value>
+  </data>
+</root>
